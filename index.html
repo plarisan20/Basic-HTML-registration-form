@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form>
+    <div>
+      <label>First Name:* </label>
+      <input type="text" name="first_name">
+    </div>
+    <br>
+    <div>
+      <label>Last Name:*</label>
+      <input type="text" name="last_name">
+    </div>
+    <br>
+    <div>
+      <label>Email Address:*</label>
+      <input type="email" name="email">
+    </div>
+    <br>
+    <div>
+      <label>Password:*</label>
+      <input type="password" name="password">
+    </div>
+    <br>  
+    <div>
+      <label>Confirm Password:*</label>
+      <input type="password" name="confirm_password">
+    </div>
+    <br>
+    <div>
+      <label>Birthday:</label>
+      <input type="date" name="dob">
+    </div>
+    <div>
+      <p>Gender Identity:</p>
+      <input type="radio" name="gender" id="male">
+      <label>Male</label>
+      <input type="radio" name="gender" id="female">
+      <label>Female</label>
+      <input type="radio" name="gender" id="Non-binary">
+      <label>Non-binary</label>
+      <input type="radio" name="gender" id="other">
+      <label>I prefer not to answer</label>
+    </div>
+    <div>
+      <p>A short description about myself:</p>
+      <textarea name="description" id="description" cols="35" rows="5"></textarea>
+    </div>
+    <br>
+    <div>
+      <label>Favorate Language:</label>
+      <select name="Language">
+        <option>Javascript</option>
+        <option>Python</option>
+        <option>Java</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" name="offer">
+      <label>Yes, I would like to receive periodic email updates
+      </label>
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="Create Account" >
+    </div>
+    <p>* Indicates a required field</p>
+  </form>
+</body>
+</html>
